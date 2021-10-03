@@ -1,0 +1,116 @@
+Selenium September Batch
+
+
+Github Link:https://github.com/Maha0290/Week1.day1
+1.factorial using for loop 
+factorial means 5*4*3*2*1=120
+
+		 int input=5;
+		 int fact=1;
+		for (int i = input; i >0; i--) {
+			
+			 fact=fact*i;
+		
+			 System.out.println(fact);
+
+		 }
+		 System.out.println("Factorial is " + fact );
+
+	}
+
+}
+2.factorial using while loop
+public class Factorial {
+
+	public static void main(String[] args) {
+
+		 int input=5;
+		 int fact=1;
+		while(input>0) {
+			 fact=fact*input;
+			 input--;
+			 System.out.println(fact);
+
+		 }
+		 System.out.println("Factorial is " + fact );
+
+	}
+
+3.Factorial using doWhileloop
+
+
+		 int input=5;
+		 int fact=1;
+		do {
+			 fact=fact*input;
+			 input--;
+			 System.out.println(fact);
+
+		 }while(input>0);
+		 System.out.println("Factorial is " + fact );
+
+	}
+
+this way to find prime Number 
+1.PrimeNumber
+public static void main(String[] args) {
+	int num=13;
+	int count=0;
+	for (int i = 1; i <=num; i++) {
+		if(num%i==0) {
+			count=count+1;
+		}
+	}
+	
+if(count==2) {
+		System.out.println("given number is prime number");
+	}else {
+		System.out.println("given number is not prime number");
+	}
+}
+}
+4.  convert negatie into ppositive
+public class ConvertNegativeNumber {
+	public static void main(String[] args) {
+		
+				int num=-35;
+			if(num<0)
+			{
+			int num1=num*-1;
+			System.out.println(num+ "The number is converted into " +num1);
+		}
+		}
+	}
+
+this is easy to understand for fibbonacciseriees
+
+public class FibbonaciSeries {
+public static void main(String[] args) {
+	int first=0;
+	int second=1;
+	int sum=0;
+	for (int i = 2; i <=8; i++) {
+		sum=first+second;
+		System.out.println(sum);
+		first=second;
+		second=sum;
+	}
+}
+}
+
+
+1.PrimeNumber condition is Wrong
+2.FibbonacciSeries print sum 
+3.factorial use  reverse for ur loop
+
+
+
+
+
+
+
+
+
+
+
+
